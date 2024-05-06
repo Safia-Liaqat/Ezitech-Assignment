@@ -1,0 +1,73 @@
+.coursewrapper{
+    font-family: "Montserrat", "sans-serif";
+    margin-top: 80px;
+}
+
+.internship-card-wrraper{
+    margin-top: 30px;
+    border-radius: 15px;
+    overflow: hidden; 
+    transition: transform 0.2s ease;
+    box-shadow: 3px 3px 14px -1px rgba(74,70,70,0.75);
+-webkit-box-shadow: 3px 3px 14px -1px rgba(74,70,70,0.75);
+-moz-box-shadow: 3px 3px 14px -1px rgba(74,70,70,0.75);
+    
+}
+
+.internship-card{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.internship-card-wrraper:hover{
+    transform: scale(1.1);
+}
+.card-header{
+    background: linear-gradient(rgba(48, 93, 228, 0.9), rgba(48, 93, 228, 0.9)),
+    url('../../assets/codingimg.jpg');
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-header > h3{
+    font-weight: 600;
+}
+
+.header-body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cardBody{
+    padding: 10px;
+    margin: 10px;
+}
+
+.employment-text{
+    color: 273044;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.employement-type{
+ padding: 5px;
+ background-color: #f0f7f4;
+ color: 273044;
+ font-size: 20px;
+}
+
+.course-Title{
+    font-weight: 800;
+    
+}
+
+.employe-icon{
+    font-size: 32px;
+}
+
+.location-icon{
+    color: #042d89;
+    font-size: 30px;
+}

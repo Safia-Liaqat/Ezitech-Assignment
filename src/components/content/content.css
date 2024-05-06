@@ -1,0 +1,133 @@
+.award-section{
+  font-family: "Montserrat";
+  margin-top: 80px;
+}
+.main-content{
+  font-family: "Montserrat";
+
+}
+
+.paragraph{
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #273044;
+
+}
+
+.paragraph > p {
+  margin-bottom: 23px;
+}
+.bold-text{
+  font-weight: bold;
+}
+
+.heading{
+    margin: 20px;
+    margin-bottom: 70px;
+    margin-top: 80px;
+    color: #273044;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.card{
+    height: 200px;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 3px 3px 14px -1px rgba(74,70,70,0.75);
+-webkit-box-shadow: 3px 3px 14px -1px rgba(74,70,70,0.75);
+-moz-box-shadow: 3px 3px 14px -1px rgba(74,70,70,0.75);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.card-body{
+    margin-top: 10px;
+}
+
+.course-duration{
+    background-color: #eef1f7;
+    color: #4d5e6f;
+    padding: 13px;
+}
+
+.course-title{
+    color: #4d5e6f;
+    font-size: 18px;
+    font-weight:400;
+    margin: 10px 0;
+}
+
+.course-description{
+    color: #001931;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.container-circle {
+    position: relative;
+    overflow: hidden;
+    height: 700px; /* Adjust as needed */
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    width: 550px; /* Adjust as needed */
+    height: 550px; /* Adjust as needed */
+    border-radius: 50%;
+  }
+  
+  .container-circle:hover {
+    transform: translate(-10%, -10%); /* Adjust the value based on the desired movement */
+  }
+  
+  .content {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .theme-punch{
+    margin-top: 150px;
+  }
+
+  .theme-punchheading{
+    color: #273044;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 70px;
+  }
+
+  .themepunch-description{
+    color: #6c7985;
+    font-size: 23px;
+    line-height: 40px;
+  }
+  
+  /* coourse section */
+ .courseTitle{
+ color: #273044;
+ font-size: 25px;
+ margin-top: 25px;
+ }
+
+ .text-details > p{
+  color: #273044;
+  opacity: 70%;
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 25px;
+ }

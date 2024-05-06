@@ -1,0 +1,255 @@
+.header-container{
+    width: 100%;
+    min-height: 100vh; 
+    background: linear-gradient(rgba(14,45,137, 0.8), rgba(14,45,137, 0.9)),
+    url('https://images.pexels.com/photos/1367274/pexels-photo-1367274.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    font-family: "Montserrat";
+}
+
+.top-bar {
+    background-color: #3275db;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 18px;
+    justify-content: center;
+  }
+  
+  .top-bar span {
+    margin-right: 15px;
+  }
+
+  .top-bar-icon{
+    font-size: 22px;
+  }
+
+  .top-bar-clock-icon{
+    font-size: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .divider {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .nav-divider{
+    height: 40px;
+    border: 0.5px solid rgb(186, 183, 183);
+    margin-right: 40px;
+  }
+
+/* Preserve custom styles for the navbar */
+.navbar {
+    background-color: transparent !important;
+}
+
+/* Preserve custom styles for navbar elements */
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-weight:600;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #20a9cc !important;
+}
+
+.nav-drodown-items{
+    color: black;
+
+}
+
+.certifications-dropdown > .nav-link.dropdown-toggle::after {
+    display: none;
+  }
+  
+.nav-drodown-items:hover{
+    color: #20a9cc;
+    
+}
+
+.horizontal-line {
+    border-top: 1px solid rgb(186, 183, 183);
+  }
+  
+/* Preserve custom styles for heart and search icons */
+.search-icon {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.search-icon svg,
+.heart-icon svg {
+    color: white;
+    font-size: 30px;
+}
+
+.heart-icon svg {
+    font-size: 40px;
+}
+
+.heart-icon::after,
+.search-icon::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    z-index: -1; /* Move the circle to the background */
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+}
+
+.heart-icon:hover::after {
+    background-color: purple; /* Change to desired color */
+    opacity: 1; /* Show the circle on hover */
+}
+
+.search-icon::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px; /* Adjust width of the rectangle */
+    height: 20px; /* Adjust height of the rectangle */
+    background-color: blue; /* Change to desired color */
+    opacity: 0; /* Initially hide the background color */
+}
+
+.search-icon:hover::before {
+    opacity: 1; /* Show the background color on hover */
+}
+
+.header-body{
+    color: white;
+    margin-top: 8%;
+}
+
+
+
+.headerHEading{
+font-size: 48px;
+}
+.header-description{
+    color: 273044;
+    font-size: 20px;
+}
+.search-bar {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-input {
+    padding: 10px 40px 10px 20px;
+    width: 450px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    margin: 10px 0;
+  }
+  
+  /* Style the input field when it's focused */
+  .search-input:focus {
+    box-shadow: none !important;
+    border: 1px solid transparent;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    right: 10px;
+  }
+  
+  
+
+.navbar-line{
+    height: 1px;
+    color: rgb(219, 209, 209);
+}
+
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+    color: #00cbff;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .header-container {
+        padding: 10px 5%;
+    }
+    .navbar-brand img {
+        width: 120px;
+        height: auto;
+    }
+    .header-body {
+      /*  margin: 20px 0; */
+    }
+    .header-heading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .search-icon {
+        display: none;
+    }
+    .header-description{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .logos{
+        display: none;
+    }
+}
+
+
+.Header-sub-text{
+font-size: 20px;
+}
+
+.heartIcon{
+    font-size: 23px;
+}

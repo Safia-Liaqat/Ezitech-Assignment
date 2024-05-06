@@ -1,0 +1,56 @@
+.footer {
+    background-color: #042d89;
+    color: #fff;
+    padding: 50px 0;
+    font-family: "Montserrat";
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-heading{
+    font-family: "Montserrat";
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 70px;
+  }
+  .col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  
+  .footer-icons{
+  font-size: 25px;
+  }
+
+  .footer-icons a{
+    color: white;
+    text-decoration: none;
+    }
+
+.footer-icon-phone{
+  font-size:23px ;
+}
+
+.footer-course-text a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+.instructor-name{
+color: #aaacb0;
+}
