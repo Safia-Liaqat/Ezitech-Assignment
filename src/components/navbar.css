@@ -5,20 +5,26 @@
     url('https://images.pexels.com/photos/1367274/pexels-photo-1367274.jpeg');
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
+    padding: 0;
     font-family: "Montserrat";
+}
+
+.nav-container{
+  margin-left: 5%;
+  
 }
 .top-bar {
   background-color: #3275db;
   color: #fff;
   padding: 10px 0;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .social-icons  a{
   color: #fff;
 }
   .nav-divider{
+    margin-top: 10px;
     height: 40px;
     border: 0.5px solid rgb(186, 183, 183);
     margin-right: 40px;
@@ -32,14 +38,13 @@
 /* Preserve custom styles for navbar elements */
 .navbar-brand img {
     max-width: 100%;
-    height: auto;
 }
 
 .navbar-nav .nav-link {
     color: white !important;
-    font-size: 15px;
+    font-size: 18px;
     font-weight:600;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .navbar-nav .nav-link:hover {

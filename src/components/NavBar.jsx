@@ -16,7 +16,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaBehance } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { GrYoutube } from "react-icons/gr";import { IoLogoInstagram } from "react-icons/io5";
-
+import { BiHeart } from "react-icons/bi";
 
 import './navbar.css';
 
@@ -53,50 +53,61 @@ const NavBar = () => {
         <span className='ms-2'>Register</span>
       </div>
         </div>
-      </div>
-      
+      </div>     
     </div>
   </div>
 </div>
 
       <div className="header-container">
-        <Navbar expand="lg" bg="body-tertiary" variant="light">
-          <div className="container">
-            <Navbar.Brand href="#">
-              <img src={Logo} alt="" width="200px" height="80px" />
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto navbar-elements">
+           <div className="nav-container ">
+           <Navbar expand="lg" bg="body-tertiary" variant="light">
+    <div className="container d-flex justify-content-between align-items-center">
+        {/* Logo */}
+        <Navbar.Brand href="#">
+            <img src={Logo} alt="" width="200px" height="70px" />
+        </Navbar.Brand>
+        
+        {/* Navbar toggler for responsive design */}
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        
+        {/* Navbar elements */}
+        <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto navbar-elements">
                 <Nav.Link href="#" className='navbar-elements'>Home</Nav.Link>
                 <Nav.Link href="#">About Us</Nav.Link>
                 <NavDropdown title="Certifications"
-                className='certifications-dropdown'
-                show={showCertifications}
-                onMouseEnter={() => setShowCertifications(true)}
-                onMouseLeave={() => setShowCertifications(false)} >
-              <NavDropdown.Item  className='nav-drodown-items' href="#">Free Courses</NavDropdown.Item>
-              <NavDropdown.Item className='nav-drodown-items' href="#">Onsite Courses</NavDropdown.Item>
-            </NavDropdown>
+                    className='certifications-dropdown'
+                    show={showCertifications}
+                    onMouseEnter={() => setShowCertifications(true)}
+                    onMouseLeave={() => setShowCertifications(false)} >
+                    <NavDropdown.Item  className='nav-drodown-items' href="#">Free Courses</NavDropdown.Item>
+                    <NavDropdown.Item className='nav-drodown-items' href="#">Onsite Courses</NavDropdown.Item>
+                </NavDropdown>
                 <Nav.Link href="#">Internships</Nav.Link>
                 <Nav.Link href="#">Seminars</Nav.Link>
                 <Nav.Link href="#">Intern Portal</Nav.Link>
-              </Nav>
-              <span class="nav-divider"></span>
-              <Nav>
-                <span className="navbar-text">
-                  <span className="heart-icon">
-                  <FiHeart />
-                  </span>
-                  <span className="search-icon">
-                    <IoIosSearch />
-                  </span>
+            </Nav>
+        </Navbar.Collapse>
+        
+        {/* Heart and Search icons */}
+        <Nav>
+        <span class="nav-divider"></span>
+            <span className="navbar-text">
+                <span className="heart-icon">
+                    <BiHeart />
                 </span>
-              </Nav>
-            </Navbar.Collapse>
-          </div>
-        </Navbar>
+                <span className="search-icon">
+                    <IoIosSearch />
+                </span>
+            </span>
+        </Nav>
+    </div>
+</Navbar>
+
+           </div>
         <div class="horizontal-line"></div>
+       
+
         <div className="header-body container">
           <div className="headerbody-container text-center">
             <div className="row">
