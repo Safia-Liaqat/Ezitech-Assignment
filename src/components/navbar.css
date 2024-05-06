@@ -215,7 +215,9 @@ font-size: 48px;
     }
     .header-heading {
         font-size: 28px;
-        line-height: 40px;
+    }
+    .heart-icon{
+      display: none;
     }
     .search-icon {
         display: none;
@@ -229,9 +231,42 @@ font-size: 48px;
     .logos{
         display: none;
     }
+    .nav-divider{
+      display: none;
+    }
 }
 
+@media screen and (min-width: 480px){
+  .header-container {
+    padding: 10px 5%;
+}
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+.header-body {
+  /*  margin: 20px 0; */
+}
 
+.heart-icon{
+  display: none;
+}
+.header-heading {
+    font-size: 20px;
+}
+.search-icon {
+    display: none;
+}
+.header-description{
+    display: none;
+}
+ .nav-divider{
+  display: none;
+ }
+.logos{
+    display: none;
+}
+}
 .Header-sub-text{
 font-size: 20px;
 }
