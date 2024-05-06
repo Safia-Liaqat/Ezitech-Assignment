@@ -143,7 +143,7 @@ const NavBar = () => {
                  </div>
               </div>
             </div>
-            <div className=" mt-4 logos d-flex flex-row justify-content-center">
+            <div className=" mt-4 logos d-flex flex-row justify-content-center mb-4">
               <div className="ms-3 ">
                 <img src={EZIBLOGS} alt="" height='50px' width='280px' />
               </div>
