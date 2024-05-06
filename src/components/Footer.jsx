@@ -25,11 +25,11 @@ const Footer = () => {
         </div>
         <div className="row mt-5" >
           <div className="col-md-3">
-            <h3>ABOUT</h3>
-            <p>Ezitech Institute provides a platform for newcomers to launch their IT and freelancing careers. Our emphasis on practical information technology courses that are career and work oriented makes us the top computer institute in Rawalpindi, Islamabad, Pakistan.</p>
+            <h4>ABOUT</h4>
+            <p className='mt-4'>Ezitech Institute provides a platform for newcomers to launch their IT and freelancing careers. Our emphasis on practical information technology courses that are career and work oriented makes us the top computer institute in Rawalpindi, Islamabad, Pakistan.</p>
           </div>
           <div className="col-md-3">
-            <h3>POPULAR COURSES</h3>
+            <h4>POPULAR COURSES</h4>
             <div className="row mt-4 footer-course-text">
               <div className="col-md-3"><img src={ArbitrageLogo} alt="" height='60px' width='60px' /></div>
               <div className="col-md-9">
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-2">
-            <h3>PAGES</h3>
+            <h4>PAGES</h4>
             <ul className='mt-4'>
               <li className='mb-3'>CONTACT US</li>
               <li className='mb-3'>SHOP</li>
@@ -56,7 +56,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3">
-            <div className="row">
+          <h4>Contact </h4>
+            <div className="row mt-3">
               <div className="col-md-3 footer-icons"><FaLocationDot /></div>
               <div className="col-md-9">
                 <p className='mt-2'>Office #304-B Amna Plaza, near Radio Pakistan, Rawalpindi, Punjab 46000</p>
@@ -70,7 +71,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="row mt-3">
+            <div className="row ">
               <div className="col-md-3 footer-icons"><IoMdMail /></div>
               <div className="col-md-9">
                 <p className='mt-2'>info@ezitech.org</p>
